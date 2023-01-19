@@ -1,11 +1,12 @@
 {
   "name": "auto-switch-dark-mode",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "author": {
     "name": "yinchengnuo",
     "email": "yinchengnuo@qq.com"
   },
+  "keywords": ["theme", "dark mode", "dark night mode", "switch mode"],
   "description": "一行代码让你的网站支持暗夜模式。",
   "repository": {
     "url": "https://github.com/yinchengnuo/auto-switch-dark-mode"
