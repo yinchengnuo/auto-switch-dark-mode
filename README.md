@@ -27,9 +27,7 @@ $ pnpm add auto-switch-dark-mode
 ## 使用
 
 ```js
-import AutoSwitchDarkMode from "auto-switch-dark-mode";
-
-const { getMode, setMode } = new AutoSwitchDarkMode();
+import { getMode, setMode } from "auto-switch-dark-mode";
 ```
 
 ### getMode
