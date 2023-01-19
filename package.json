@@ -1,0 +1,36 @@
+{
+  "name": "auto-switch-dark-mode",
+  "version": "1.0.0",
+  "type": "module",
+  "author": {
+    "name": "yinchengnuo",
+    "email": "yinchengnuo@qq.com"
+  },
+  "description": "一行代码让你的网站支持暗夜模式。",
+  "repository": {
+    "url": "https://github.com/yinchengnuo/auto-switch-dark-mode"
+  },
+  "bugs": {
+    "url": "https://github.com/yinchengnuo/auto-switch-dark-mode/issues"
+  },
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
+  "main": "./dist/AutoSwitchDarkMode.umd.cjs",
+  "module": "./dist/AutoSwitchDarkMode.js",
+  "types": "./index.d.ts",
+  "exports": {
+    "types": "./index.d.ts",
+    "import": "./dist/AutoSwitchDarkMode.js",
+    "require": "./dist/AutoSwitchDarkMode.umd.cjs"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4",
+    "vite": "^4.0.0"
+  }
+}
