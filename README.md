@@ -27,8 +27,11 @@ $ pnpm add auto-switch-dark-mode
 ## 使用
 
 ```js
-import { getMode, setMode } from "auto-switch-dark-mode";
+import { useAutoSwitchDarkMode, getMode, setMode } from "auto-switch-dark-mode";
 ```
+### useAutoSwitchDarkMode
+
+调用 useAutoSwitchDarkMode 可以让你的网站根据系统系统自动切换暗黑模式。
 
 ### getMode
 

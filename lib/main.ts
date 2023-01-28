@@ -2,7 +2,7 @@
  * @Author: 尹成诺
  * @Date: 2023-01-19 09:54:15
  * @LastEditors: 尹成诺
- * @LastEditTime: 2023-01-19 12:28:29
+ * @LastEditTime: 2023-01-28 18:58:42
  * @Description: file content
  */
 
@@ -47,6 +47,8 @@ export const setMode = (mode?: MODE): MODE => {
 
 setMode(MODE);
 
-matchMedia("(prefers-color-scheme: dark)").onchange = () => {
-  setMode(getMode());
+export const useAutoSwitchDarkMode = () => {
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
+    setMode(getMode());
+  });
 };
